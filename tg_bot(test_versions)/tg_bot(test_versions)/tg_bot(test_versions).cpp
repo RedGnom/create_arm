@@ -79,7 +79,7 @@ bool Wait_password = false;
 int main() {
     setlocale(LC_ALL, "RU");
     system("chcp 1251>nul");
-    TgBot::Bot bot("6810350760:AAHSwM7zhNvZRtomDXQ5QsPFg77CETGtfBk");
+    TgBot::Bot bot("");
 
     //Привязка кнопок к различным видам подтекстовых клавиатур
     Buttons buttons;
